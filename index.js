@@ -14,7 +14,7 @@ app.use('/assets/images', express.static(path.resolve(__dirname, 'assets/images'
 // hide powered by express
 app.disable('x-powered-by');
 // start the server
-app.listen(process.env.PORT || 8000)
+app.listen(80)
 
 app.get('/', ( req , res) => {
     const { preloadedState, content}  = ssr()

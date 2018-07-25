@@ -856,8 +856,27 @@
     width: 120px !important;
     height: 100px !important;
     margin-left:  0 !important;
+    object-fit: cover;
 }
 .tile-viewport {
     height: fit-content !important;
     width: fit-content !important;
+}
+.gal-title {
+    display: inline;
+    vertical-align: baseline;
+    color: rgba(0,0,0,0.87);
+    font: 500 13px/20px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.gal-title > span {
+    display: inline;
+    vertical-align: baseline;
+    color: rgba(0,0,0,0.54);
+    font: 500 13px/20px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 48px;
+    margin-left: 6px;
+    padding: 16px 0 16px 6px;
+    outline: none;
 }
